@@ -82,24 +82,24 @@ class ComplexModal extends Component {
         <ModalBody>
           <Form>
             <FormGroup>
-              <Label htmlFor="widthInput">Width:</Label>
-              <Input onChange={this.handleChange} name="width" id="widthInput" placeholder="width" required />
+              <Label htmlFor="widthInput">Width, px:</Label>
+              <Input onChange={this.handleChange} name="width" id="widthInput" />
             </FormGroup>
             <FormGroup>
-              <Label htmlFor="heightInput">Height:</Label>
-              <Input onChange={this.handleChange} name="height" id="heightInput" placeholder="height" required />
+              <Label htmlFor="heightInput">Height, px:</Label>
+              <Input onChange={this.handleChange} name="height" id="heightInput" />
             </FormGroup>
             <FormGroup>
-              <Label htmlFor="topInput">Top:</Label>
-              <Input onChange={this.handleChange} name="top" id="topInput" placeholder="top" required />
+              <Label htmlFor="topInput">Top, px:</Label>
+              <Input onChange={this.handleChange} name="top" id="topInput" />
             </FormGroup>
             <FormGroup>
-              <Label htmlFor="leftInput">Left:</Label>
-              <Input onChange={this.handleChange} name="left" id="leftInput" placeholder="left" required />
+              <Label htmlFor="leftInput">Left, px:</Label>
+              <Input onChange={this.handleChange} name="left" id="leftInput" />
             </FormGroup>
             <FormGroup>
               <Label htmlFor="colorInput">Color:</Label>
-              <Input type="select" onChange={this.handleChange} name="color" id="heightInput" placeholder="color" required>
+              <Input type="select" onChange={this.handleChange} name="color" id="heightInput">
                 <option>red</option>
                 <option>blue</option>
                 <option>grey</option>
