@@ -98,7 +98,7 @@ class ComplexModal extends Component {
               <Input onChange={this.handleChange} name="left" id="leftInput" />
             </FormGroup>
             <FormGroup>
-              <Label htmlFor="colorInput">Color:</Label>
+              <Label htmlFor="colorInput">Background color:</Label>
               <Input type="select" onChange={this.handleChange} name="color" id="heightInput">
                 <option>red</option>
                 <option>blue</option>
